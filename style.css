@@ -1,21 +1,21 @@
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 h1 {
   display: flex;
   align-items: center;
   height: 72px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
-  color: #2A3135;
+  color: #2a3135;
 }
 h2 {
   display: flex;
   align-items: center;
   height: 48px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
@@ -26,20 +26,20 @@ a {
   justify-content: center;
   width: 384px;
   height: 64px;
-  background: #34ACE0;
+  background: #34ace0;
   box-shadow: 0px 2px 8px rgba(52, 172, 224, 0.4);
   border-radius: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 a:link {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
   text-decoration: none;
 }
 a:visited {
-  background: #34ACE0;  
+  background: #34ace0;
 }
 a:hover {
   background: rgba(52, 172, 224, 0.4);
@@ -54,7 +54,7 @@ a:active {
   justify-content: space-between;
   width: 1024px;
   height: 868px;
-  margin: 136px 288px;  
+  margin: 100px auto;
   background: #fff;
 }
 .cont_vert {
@@ -73,7 +73,7 @@ a:active {
   align-items: center;
 }
 .cont_fabs {
-  position:relative;
+  position: relative;
 }
 .cont_stage {
   display: flex;
@@ -154,7 +154,7 @@ a:active {
 .cont_rb01 {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   padding: 8px 24px;
   width: 432px;
   margin: 0 0 24px;
@@ -166,7 +166,7 @@ a:active {
 .cont_rb01c {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: space-between;
   height: 56px;
 }
@@ -174,18 +174,18 @@ a:active {
   box-sizing: border-box;
   padding: 8px 16px 8px 50px;
   height: 40px;
-  background: #FAFAFA;
+  background: #fafafa;
   border: 1px solid rgba(220, 224, 226, 0.2);
   box-shadow: 0px 1px 4px rgba(220, 224, 226, 0.1);
   border-radius: 8px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #868C90;
+  color: #868c90;
 }
 .cont_rb01 input::placeholder {
-  color: #868C90;
+  color: #868c90;
 }
 .icon01 {
   position: absolute;
@@ -213,7 +213,7 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 384px; 
+  width: 384px;
   height: 100px;
   margin-top: 16px;
 }
@@ -231,15 +231,15 @@ a:active {
   box-sizing: border-box;
   filter: drop-shadow(0px 1px 4px rgba(220, 224, 226, 0.1));
   border-radius: 8px;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .meth_box:focus {
   border: 1px solid rgba(52, 172, 224, 0.8);
-  background: rgba(52, 172, 224, 0.2);  
+  background: rgba(52, 172, 224, 0.2);
 }
 .meth_box:hover {
   border: 1px solid rgba(52, 172, 224, 0.8);
-  background: rgba(52, 172, 224, 0.2);  
+  background: rgba(52, 172, 224, 0.2);
 }
 .col_lightblue01 {
   color: rgba(52, 172, 224, 0.4);
@@ -248,28 +248,28 @@ a:active {
   background: rgba(52, 172, 224, 0.4);
 }
 .col_lightgrey01 {
-  color: #DCE0E2;
+  color: #dce0e2;
 }
 .col_bg_lightgrey01 {
-  background: #DCE0E2;
+  background: #dce0e2;
 }
 .col_grey01 {
-  color: #868C90;
+  color: #868c90;
 }
 .col_bg_grey01 {
-  background: #868C90;
+  background: #868c90;
 }
 .col_blue01 {
-  color: #34ACE0;
+  color: #34ace0;
 }
 .col_bg_blue01 {
-  background: #34ACE0;
+  background: #34ace0;
 }
 .txt_16 {
   display: flex;
   align-items: center;
   height: 24px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -281,23 +281,23 @@ a:active {
   font-weight: 400;
 }
 .txt_line_th {
-  text-decoration-line: line-through;  
+  text-decoration-line: line-through;
 }
 #em_select_cur {
   display: flex;
   align-items: center;
   width: 92px;
   height: 48px;
-  background: #FFFFFF;
-  border: 1px solid #34ACE0;
+  background: #ffffff;
+  border: 1px solid #34ace0;
   box-sizing: border-box;
   border-radius: 8px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 48px;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #34ACE0;
+  color: #34ace0;
   padding-left: 8px;
 }
